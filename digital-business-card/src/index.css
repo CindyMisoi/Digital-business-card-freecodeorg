@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  background-color: #4F4A4A;
+}
+.box--container{
+  margin-top: 20px;
+  background-color: #3F3C3C;
+  background-position: center;
+  width: 466px;
+  max-height: 1000px;
+  border-radius: 20px;
+  margin-left: 700px;
+}
+.info--details > img{
+  width: 466px;
+  height: 288px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.person--name{
+  font-weight: bold;
+  color:white ;
+  font-family: Inter, sans-serif;
+  font-size:32px ;
+}
+.job--title{
+  font-family: Inter, sans-serif;
+  color: #F5DEBA;
+  font-weight: lighter;
+  font-size:27px ;
+}
+.company--name{
+  color: white;
+  font-weight: lighter;
+  font-family: Inter, sans-serif;
+  font-size:20px ;
+
+}
+.buttons{
+ 
+ padding-top: 20px; 
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+ 
+}
+.email--button{
+  display: flex;
+  flex-direction: row;
+  width: 185px;
+  height: 74px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  background-color: white;
+  margin-left: 30px;
+
+  
+}
+.email--button p {
+  margin-left: 30px;
+}
+.email--button > img{
+
+  width: 43px;
+  height: 40px;
+  margin-left: 20px; 
+  margin-top: 10px;
+}
+.email--details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+.linkedin--button{
+  display: flex;
+  flex-direction: row;
+  width: 185px;
+  height: 74px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  background-color: rgb(244, 244, 245);
+  margin-right: 30px;
+}
+.linkedin--button > img{
+  width: 43px;
+  height: 40px;
+  margin-left: 20px; 
+  margin-top: 10px;
+}
+.linkedin--button p {
+  margin-left: 20px;
+  color: rgb(45, 124, 243);
+}
+
+.about--details{
+  text-align: left;
+  justify-content: center;
+  margin-left: 10px;
+  color: white;
+}
+.interest--details{
+  text-align: left;
+  justify-content: center;
+  margin-left: 10px;
+  color: white;
+}
+
+.box--footer{
+  height: 107px;
+  width: 465;
+  border-radius:0px 0px 20px 20px;
+  background-color:#2C2A2A ;
+  position: relative;
+ 
+}
+.footer--details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 20px;
+  
+}
+
+.footer--details > img{
+  width: 67px;
+  height: 70px;
+  opacity: 20%;
+  border-radius:10px ;
+
+  
+}
